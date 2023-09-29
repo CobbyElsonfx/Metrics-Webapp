@@ -1,12 +1,10 @@
-:root {
-  --color-primary: rgb(3, 1, 14);
-  --color-primary-1: rgb(51, 28, 68);
-  --color-primary-1-hover: rgb(51, 28, 68);
-  --color-primary-2: rgb(60, 34, 85);
-  --color-primary-3: rgba(23, 15, 48, 0.204);
-  --color-white: #fff;
-  --color-black: #000;
-}
+$color-primary: rgb(3, 1, 14);
+$color-primary-1: rgb(51, 28, 68);
+$color-primary-1-hover: rgb(51, 28, 68);
+$color-primary-2: rgb(60, 34, 85);
+$color-primary-3: rgba(23, 15, 48, 0.204);
+$color-white: #fff;
+$color-black: #000;
 
 *,
 *::after,
@@ -19,7 +17,7 @@
 body {
   color: #fff;
   font-family: sans-serif;
-  background-color: var(--color-primary);
+  background-color: $color-primary;
 }
 
 .loading {
@@ -40,7 +38,7 @@ h2 {
 
 .air-pollution-aqi {
   display: flex;
-  background-color: var(--color-primary-3);
+  background-color: $color-primary-3;
   justify-content: space-between;
   align-items: center;
   margin: 1rem 0;
@@ -51,7 +49,7 @@ h2 {
   width: 50%;
   height: 1.5rem;
   border-radius: 100px;
-  background-color: var(--color-white);
+  background-color: $color-white;
   position: relative;
 }
 
@@ -76,7 +74,7 @@ h2 {
 }
 
 .air-pollution-details ul li:nth-child(odd) {
-  background-color: var(--color-primary-2);
+  background-color: $color-primary-2;
 }
 
 .currentDate {
@@ -140,7 +138,7 @@ nav {
 
 .q-text {
   font-size: 27px;
-  color: var(--color-primary);
+  color: $color-primary;
 }
 
 .navItems .icons img {
@@ -179,7 +177,7 @@ nav {
   color: white;
 }
 
-@media (width < 765) {
+@media (max-width: 765px) { // Fixed the media query syntax
   .earthGlobe {
     max-width: 7rem;
     height: auto;
@@ -215,8 +213,8 @@ nav {
   justify-content: center;
   align-items: flex-start;
   position: relative;
-  background-color: var(--color-primary-1);
-  padding-left:10%;
+  background-color: $color-primary-1;
+  padding-left: 10%;
 }
 
 .back {
@@ -234,14 +232,14 @@ nav {
 .region-button {
   background-color: transparent;
   border: none;
-  padding:2rem;
+  padding: 2rem;
 }
 
 .region-box a {
   color: white;
   text-decoration: none;
   font-size: 2.2rem;
-  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .btn-icon-left {
@@ -255,7 +253,7 @@ nav {
 
 .icon-left {
   font-size: 2rem;
-  color: var(--color-white);
+  color: $color-white;
 }
 
 @media (max-width: 360px) {
@@ -270,7 +268,7 @@ nav {
   }
 
   .region-box:nth-child(2n) {
-    background-color: var(--color-primary-2);
+    background-color: $color-primary-2;
   }
 
   .header-title p {
@@ -287,12 +285,12 @@ nav {
 
 .list-item {
   padding: 0 0 1rem 0;
-  border: 1px solid var(--color-primary-2);
+  border: 1px solid $color-primary-2;
 }
 
 .list-item:nth-child(4n + 1),
 .list-item:nth-child(4n + 4) {
-  background-color: var(--color-primary-2);
+  background-color: $color-primary-2;
 }
 
 .country {
@@ -319,7 +317,7 @@ nav {
 
 .list-item a {
   text-decoration: none;
-  color: var(--color-white);
+  color: $color-white;
 }
 
 .country-name {
@@ -340,6 +338,6 @@ nav {
   }
 
   .list-item:nth-child(2n) {
-    background-color: var(--color-primary-2);
+    background-color: $color-primary-2;
   }
 }

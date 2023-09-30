@@ -5,7 +5,7 @@ import AirPollutionDetails from '../components/AirPollutionDetails';
 
 jest.mock('../components/Home');
 jest.mock('../components/Region');
-jest.mock('../components/Region');
+jest.mock('../components/AirPollutionDetails');
 
 describe('It should match snapshots', () => {
   it('Should match home snapshots ', () => {

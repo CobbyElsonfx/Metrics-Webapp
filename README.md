@@ -14,6 +14,7 @@
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
+ - [🙏 Acknowledgements](#acknowledgements)
 - [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
@@ -114,6 +115,9 @@ Feel free to check the [issues page](../../issues/).
 If you like this project and wish to collaborate. Please contact me.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+The design idea is originally designed by **👤Nelson Sakwa in Behance**
 
 
 ## ❓ FAQ <a name="faq"></a>

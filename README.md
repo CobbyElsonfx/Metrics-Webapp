@@ -115,7 +115,8 @@ Feel free to check the [issues page](../../issues/).
 If you like this project and wish to collaborate. Please contact me.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-##  🙏 Acknowledgments <a name="acknowledgements"></a>
+
+## 🙏  Acknowledgments <a name="acknowledgment"></a>
 
 The design idea is originally designed by **👤Nelson Sakwa in Behance**
 

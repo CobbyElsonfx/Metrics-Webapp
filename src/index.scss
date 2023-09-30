@@ -197,6 +197,29 @@ nav {
   text-align: center;
 }
 
+.region-title .inputSearch {
+  width: 40%;
+  height: 30px;
+  border-radius: 6px;
+  border: none;
+  outline: none;
+  padding: 0 10px;
+  font-size: 16px;
+}
+
+.btnSearch {
+  width: 30px;
+  height: 30px;
+  border-radius: 6px;
+  border: none;
+  outline: none;
+  background-color: rgb(4, 0, 7);
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  padding-left: 1rem;
+}
+
 .region {
   min-height: calc(60vh - 30px);
   display: grid;
@@ -312,7 +335,7 @@ nav {
   gap: 0.5rem;
   justify-content: flex-end;
   align-items: flex-end;
-  padding: 0.3rem;
+  padding: 0.4rem;
 }
 
 .list-item a {

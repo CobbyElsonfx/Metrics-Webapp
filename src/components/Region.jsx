@@ -62,9 +62,9 @@ const Region = () => {
             Search
           </button>
         </div>
-        {loading && <div className="loading">loading...</div>}
-        {error && <div>error</div>}
-        {searchError && <div>{searchError}</div>}
+        {loading && <div className="loading">Please wait page loading...</div>}
+        {error && <div className="error">Something went wrong , check your internet connection!</div>}
+        {searchError && <div className="searchError">{searchError}</div>}
         {' '}
         {/* Display search error */}
         <ul className="list-country">

@@ -6,7 +6,8 @@ import america from '../Assets/america.png';
 import europe from '../Assets/europe.png';
 import africa from '../Assets/africa.png';
 import oceania from '../Assets/oceania.png';
-import globe from '../Assets/globe-alt.svg';
+import caribean from '../Assets/carribean.png';
+import globe from '../Assets/earth-globe.png';
 import microphone from '../Assets/microphone (1).png';
 import settings from '../Assets/settings.png';
 
@@ -18,6 +19,7 @@ const Home = () => {
     { name: 'Oceania', backgroundImage: `${backgroundColor}, url(${oceania})` },
     { name: 'Asia', backgroundImage: `${backgroundColor}, url(${asia})` },
     { name: 'America', backgroundImage: `${backgroundColor}, url(${america})` },
+    { name: 'Caribbean', backgroundImage: `${backgroundColor}, url(${caribean})` },
   ];
 
   return (
@@ -29,7 +31,15 @@ const Home = () => {
               -B
               <span className="q-text">Q</span>
               A
-              <span className="theme">Breath Quality Air</span>
+              <span className="theme">
+                Breath
+                <span className="q-text-title5.
+                  "
+                >
+                  {' '}
+                  Quality Air
+                </span>
+              </span>
             </div>
             <div className="icons">
               <img src={microphone} alt="microphone" />
@@ -39,11 +49,11 @@ const Home = () => {
         </div>
         <div className="header-title">
           <img src={globe} alt="earthGlobe" className="earthGlobe" />
-          <h1> Global Air Quality Resource</h1>
-          <p>Access Real-Time Air Quality Information</p>
+          <h2> Breath Quality Air</h2>
+          <p>Access Real-Time Air Quality Information Accros the Globe</p>
         </div>
       </header>
-      <div className="region-title">CONTINENTS</div>
+      <div className="region-title">Regions of the World</div>
       <div className="region">
         {regionList.map((region) => (
           <div

@@ -6,6 +6,7 @@ import america from '../Assets/america.png';
 import europe from '../Assets/europe.png';
 import africa from '../Assets/africa.png';
 import oceania from '../Assets/oceania.png';
+import caribean from '../Assets/carribean.png';
 import globe from '../Assets/earth-globe.png';
 import microphone from '../Assets/microphone (1).png';
 import settings from '../Assets/settings.png';
@@ -18,7 +19,7 @@ const Home = () => {
     { name: 'Oceania', backgroundImage: `${backgroundColor}, url(${oceania})` },
     { name: 'Asia', backgroundImage: `${backgroundColor}, url(${asia})` },
     { name: 'America', backgroundImage: `${backgroundColor}, url(${america})` },
-    { name: 'Caribbean', backgroundImage: `${backgroundColor}, url(${america})` },
+    { name: 'Caribbean', backgroundImage: `${backgroundColor}, url(${caribean})` },
   ];
 
   return (

@@ -75,7 +75,7 @@ Clone this repository to your desired folder:
 
 ### Deployment
 
-You can deploy this project using ![Render](https://render.com/):
+You can deploy this project using -[Render](https://render.com/):
 Render is a unified cloud to build and run all your apps and websites with free TLS certificates,
 a global CDN, DDoS protection, private networks, and auto deploys from Git.
 

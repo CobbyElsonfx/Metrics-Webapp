@@ -44,9 +44,9 @@
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 🚀 Live Demo
-Link to  deployed project..
+Link to  deployed project -[BQA - Breath Quality Air](https://bqabreatqualityair.onrender.com)
 
--[Live Link](https://bqabreatqualityair.onrender.com)
+
 
 💽 Live Video
 -[Live Video](https://watch.screencastify.com/v/yjkQFEA4usWkhCBoH6xh)
